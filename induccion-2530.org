@@ -1,0 +1,72 @@
+#+setupfile: https://raw.githubusercontent.com/baracunatana/org-export-common/refs/heads/main/puj-re-reveal.org
+
+#+reveal_extra_css: ./local.css
+
+#+title: EGPTI y AESOF
+#+subtitle: Inducción 2530 
+
+# A continuación se configura el bloque de información de autor para casos individuales (un autor). Si se quiere un bloque de autor más complejo que esto, se debe redefinir el keyword reveal_title_slide
+#+author: Juan E. Gómez-Morantes, PhD
+# reveal_academic_title se usa para el cargo o, en general, la linea bajo el autor. Se puede dejar vacía. 
+#+reveal_academic_title: Profesor Asociado
+# +reveal_miscinfo se usa para la tercera línea luego del nombre del autor. Tiene una fuente un poco más pequeña que reveal_academic_title
+#+reveal_miscinfo: Pontificia Universidad Javierana
+# Para cambiar el "Facultad de Ingeniería", es necesario modificar reveal_title_slide más abajo en esta plantilla
+#+email: je.gomezm@javeriana.edu.co
+
+# Se pueden dejar vacíos, pero no se puede eliminar
+#+macro: lugar Bogotá, Colombia • 
+#+macro: contexto Jornada de inducción posgrado
+#+date: {{{contexto}}} @@html: <br>@@ {{{lugar}}} 12 de julio 2025
+
+# reveal_talk_url se usa para el url de la imagen a mostrar en la parte derecha de la lámina de título
+#+reveal_talk_url: https://github.com/baracunatana/org-export-common/blob/main/media/atrio.jpg?raw=true
+
+#+reveal_title_slide: <section class="title-slide"> <div class="title-left"><div class="t-bloque-titulo"> <h1>%t</h1><p class="t-subtitle">%s</p></div><div class="autor-bloque"><div class="texto autor">%a</div><div class="texto cargo">%A</div><div class="texto afiliacion">%m</div><div class="texto afiliacion">Facultad de Ingeniería</div><div class="correo"><img style="height: 1rem; margin-right: 5px;"  src="https://github.com/baracunatana/org-export-common/blob/main/media/sobre.png?raw=true"> %e</div></div><div class="t-cierre"><div class="logo-contexto"><img src="https://github.com/baracunatana/org-export-common/blob/main/media/logo-puj-blanco.png?raw=true" alt="Pontificia Universidad Javeriana"></div><div class="contexto">%d</div></div> </div> <div class="title-right"><img class="imagen-derecha" src="%u"></div></section>
+
+* AES
+** Generalidades
+| Duración  | 2 semestres                                         |
+| Título    | Especialista en arquitectura empresarial de software |
+| Modalidad | *Presencial*                                           |
+| Horarios  | M > J 6-9pm y S 8-12                                 |
+
+** Componentes
+#+DOWNLOADED: screenshot @ 2024-07-13 07:58:41
+[[file:../../media/AES/2024-07-13_07-58-41_screenshot.png]]
+
+** Plan de estudios
+#+DOWNLOADED: screenshot @ 2024-07-13 07:59:47
+[[file:../../media/AES/2024-07-13_07-59-47_screenshot.png]]
+
+** ¿Y luego de terminar?
+Integración con Maestría en Ingeniería de Sistemas y Computación:
+
+#+DOWNLOADED: screenshot @ 2024-07-13 08:03:06
+#+attr_html: :style height: 60vh
+[[file:../../media/AES/2024-07-13_08-03-06_screenshot.png]]
+
+* EGPTI
+** Generalidades
+| Duración  | 2 semestres                                                            |
+| Título    | Especialista en gerencia de proyectos de tecnologías de la información |
+| Modalidad | *Presencial*                                                             |
+| Horarios  | M > J 6-9pm y S 8-12                                                   |
+
+** Componentes
+
+#+DOWNLOADED: screenshot @ 2024-07-13 08:16:35
+[[file:../../media/EGPTI/2024-07-13_08-16-35_screenshot.png]]
+
+** Plan de estudios
+
+#+DOWNLOADED: screenshot @ 2024-07-13 08:17:00
+[[file:../../media/EGPTI/2024-07-13_08-17-00_screenshot.png]]
+
+** ¿Y luego de terminar?
+Integración con Maestría en Ingeniería de Sistemas y Computación:
+
+#+DOWNLOADED: screenshot @ 2024-07-13 08:17:30
+#+attr_html: :style height: 60vh
+[[file:../../media/EGPTI/2024-07-13_08-17-30_screenshot.png]]
+
